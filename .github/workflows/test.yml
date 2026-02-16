@@ -1,0 +1,17 @@
+name: Verification Workflow
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f3002697@ds.study.iitm.ac.in
+        run: echo "Action triggered for 23f3002697@ds.study.iitm.ac.in"
+      - name: Repository Checkout
+        uses: actions/checkout@v4
+      - name: Status Check
+        run: echo "Workflow successfully executed."
