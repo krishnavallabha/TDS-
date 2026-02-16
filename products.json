@@ -98,7 +98,7 @@
             "category": "clothing",
             "price": 190.02,
             "stock": 163,
-            "rating": 2.0
+            "rating": 2
         },
         {
             "id": "prod-1986c461-013",
@@ -160,11 +160,11 @@
     "aggregations": {
         "electronics": {
             "count": 6,
-            "inventoryValue": 210132.52
+            "inventoryValue": 179151.38
         },
         "books": {
             "count": 4,
-            "inventoryValue": 168605.52
+            "inventoryValue": 173079.66
         },
         "clothing": {
             "count": 7,
@@ -172,7 +172,7 @@
         },
         "sports": {
             "count": 2,
-            "inventoryValue": 34563.49
+            "inventoryValue": 34564.49
         }
     }
 }
