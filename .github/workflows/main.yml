@@ -1,4 +1,4 @@
-name: Caching Workflow
+name: Combined Verification Workflow
 
 on:
   push:
@@ -6,9 +6,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  cache-job:
+  verify:
     runs-on: ubuntu-latest
     steps:
+      - name: 23f3002697@ds.study.iitm.ac.in
+        run: echo "Verified email step"
+
       - name: Checkout Code
         uses: actions/checkout@v4
 
