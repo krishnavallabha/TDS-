@@ -1,0 +1,166 @@
+{
+    "metadata": {
+        "email": "23f3002697@ds.study.iitm.ac.in",
+        "version": "1986c461"
+    },
+    "products": [
+        {
+            "id": "prod-1986c461-001",
+            "name": "Standard Item 1",
+            "category": "electronics",
+            "price": 269.99,
+            "stock": 189,
+            "rating": 3.6
+        },
+        {
+            "id": "prod-1986c461-002",
+            "name": "Standard Item 2",
+            "category": "books",
+            "price": 415.48,
+            "stock": 138,
+            "rating": 4.4
+        },
+        {
+            "id": "prod-1986c461-003",
+            "name": "Standard Item 3",
+            "category": "clothing",
+            "price": 478.94,
+            "stock": 133,
+            "rating": 4.7
+        },
+        {
+            "id": "prod-1986c461-004",
+            "name": "Basic Item 4",
+            "category": "clothing",
+            "price": 181.3,
+            "stock": 124,
+            "rating": 4.4
+        },
+        {
+            "id": "prod-1986c461-005",
+            "name": "Premium Item 5",
+            "category": "electronics",
+            "price": 202.57,
+            "stock": 110,
+            "rating": 2.1
+        },
+        {
+            "id": "prod-1986c461-006",
+            "name": "Premium Item 6",
+            "category": "clothing",
+            "price": 367.82,
+            "stock": 113,
+            "rating": 3.1
+        },
+        {
+            "id": "prod-1986c461-007",
+            "name": "Standard Item 7",
+            "category": "electronics",
+            "price": 460.22,
+            "stock": 136,
+            "rating": 1.2
+        },
+        {
+            "id": "prod-1986c461-008",
+            "name": "Pro Item 8",
+            "category": "electronics",
+            "price": 421.6,
+            "stock": 65,
+            "rating": 1.1
+        },
+        {
+            "id": "prod-1986c461-009",
+            "name": "Pro Item 9",
+            "category": "clothing",
+            "price": 448.54,
+            "stock": 64,
+            "rating": 2.1
+        },
+        {
+            "id": "prod-1986c461-010",
+            "name": "Elite Item 10",
+            "category": "clothing",
+            "price": 486.38,
+            "stock": 161,
+            "rating": 1.9
+        },
+        {
+            "id": "prod-1986c461-011",
+            "name": "Standard Item 11",
+            "category": "books",
+            "price": 198.86,
+            "stock": 144,
+            "rating": 4.1
+        },
+        {
+            "id": "prod-1986c461-012",
+            "name": "Standard Item 12",
+            "category": "clothing",
+            "price": 190.02,
+            "stock": 163,
+            "rating": 2.0
+        },
+        {
+            "id": "prod-1986c461-013",
+            "name": "Standard Item 13",
+            "category": "electronics",
+            "price": 160.35,
+            "stock": 36,
+            "rating": 1.3
+        },
+        {
+            "id": "prod-1986c461-014",
+            "name": "Elite Item 14",
+            "category": "books",
+            "price": 474.23,
+            "stock": 171,
+            "rating": 3.8
+        },
+        {
+            "id": "prod-1986c461-015",
+            "name": "Elite Item 15",
+            "category": "sports",
+            "price": 26.87,
+            "stock": 7,
+            "rating": 1.3
+        },
+        {
+            "id": "prod-1986c461-016",
+            "name": "Standard Item 16",
+            "category": "clothing",
+            "price": 248.95,
+            "stock": 185,
+            "rating": 1.6
+        },
+        {
+            "id": "prod-1986c461-017",
+            "name": "Premium Item 17",
+            "category": "sports",
+            "price": 286.47,
+            "stock": 120,
+            "rating": 2.8
+        },
+        {
+            "id": "prod-1986c461-018",
+            "name": "Premium Item 18",
+            "category": "books",
+            "price": 400.95,
+            "stock": 15,
+            "rating": 2.2
+        },
+        {
+            "id": "prod-1986c461-019",
+            "name": "Pro Item 19",
+            "category": "electronics",
+            "price": 287.83,
+            "stock": 35,
+            "rating": 1.5
+        }
+    ],
+    "aggregations": {
+        "clothing": {
+            "count": 7,
+            "inventoryValue": 311786.63
+        }
+    }
+}
