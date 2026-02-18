@@ -1,6 +1,14 @@
 # q-git-revert-env
 23f3002697@ds.study.iitm.ac.in
 
+## GitHub Actions Verification
+This repository includes a GitHub Actions workflow for verification purposes.
+
+### Features
+- **Email Verification**: A step named after the student email.
+- **Caching**: Uses `actions/cache@v4` with key `cache-617f648` to speed up CI runs.
+- **Prime Cache Step**: A step named `prime-cache-617f648` that monitors cache status.
+
 A Flask-based REST API service.
 
 ## Version
