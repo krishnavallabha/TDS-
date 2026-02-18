@@ -1,4 +1,4 @@
-name: Combined Verification Workflow
+name: TDS Grader Verification
 
 on:
   push:
@@ -6,24 +6,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  verify:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: 23f3002697@ds.study.iitm.ac.in
-        run: echo "Verified email step"
-
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Cache dependencies
-        id: cache-step
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache
-          key: cache-617f648
-
-      - name: prime-cache-617f648
-        run: |
-          echo "Cache hit/miss result: ${{ steps.cache-step.outputs.cache-hit }}"
-          mkdir -p ~/.cache
-          echo "priming data" > ~/.cache/prime.txt
+        run: echo "Hello, world!"
