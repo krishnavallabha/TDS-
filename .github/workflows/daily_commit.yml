@@ -1,0 +1,29 @@
+name: Daily DevSync Commit 23f3002697@ds.study.iitm.ac.in
+
+on:
+  schedule:
+    - cron: '30 06 * * *' # Daily at 12:00 PM IST (06:30 UTC)
+  workflow_dispatch:
+
+jobs:
+  daily-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Track daily activity for 23f3002697@ds.study.iitm.ac.in
+        run: |
+          mkdir -p GA3/q4
+          echo "Daily automated activity logged at $(date)" >> GA3/q4/activity_log.txt
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add GA3/q4/activity_log.txt
+          git commit -m "Automated daily activity log update [23f3002697@ds.study.iitm.ac.in]" || echo "No changes to commit"
+          git push
