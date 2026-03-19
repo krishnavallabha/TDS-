@@ -1,0 +1,7 @@
+{
+  "prompt": "A minimalist, abstract architectural composition. An overwhelmingly massive, flawless, gleaming gold monolithic slab dominates the top 80 percent of the frame, pressing down with crushing, oppressive weight. Below it, in the remaining 20 percent of the space, thousands of tiny, brittle, shattered grey concrete splinters are tightly packed and crumbling under the pressure. High contrast, cinematic lighting, conceptual art, feeling of structural suffocation. No text, no charts, no money, no scales, no people.",
+  "model": "DALL-E 3",
+  "dataset_name": "Federal Reserve Distributional Financial Accounts (Total Wealth by Wealth Percentile)",
+  "dataset_url": "https://www.federalreserve.gov/releases/z1/dataviz/dfa/distribute/table/",
+  "insight": "The wealth of the top 1% constitutes a massive, impenetrable mass that structurally crushes the fragmented, precarious existence of the bottom 50%."
+}
