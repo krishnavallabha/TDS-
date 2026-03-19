@@ -1,0 +1,7 @@
+{
+  "prompt": "A breathtaking, photorealistic aerial drone shot of a lush green meadow at golden hour. The meadow is divided by a single, perfectly straight wooden fence running diagonally across the frame. On the left side of the fence is a flock of white sheep. On the right side is a flock of black sheep. The crucial detail is the spacing: the fence is positioned exactly down the middle of a very wide, conspicuously empty strip of grass between the two flocks. The closest white sheep and the closest black sheep are equidistant from the fence, leaving a maximum possible 'margin' of empty grass on both sides of the fence. Hyper-realistic, National Geographic photography, highly detailed, no text, no diagrams, natural physical scene.",
+  "model": "DALL·E 3",
+  "concept": "support vector machine",
+  "metaphor": "The fence represents the decision boundary separating two classes (black and white sheep). The wide empty grass strip represents the maximum margin, with closest sheep acting as support vectors.",
+  "publish_email": true
+}
